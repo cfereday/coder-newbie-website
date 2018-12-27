@@ -4,6 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
+import Card from '../components/Card'
 import Layout from '../components/layout'
 import { rhythm } from '../utils/typography'
 
@@ -13,7 +14,7 @@ class BlogIndex extends React.Component {
     const siteDescription = get(
       this,
       'props.data.site.siteMetadata.description'
-    )
+    );
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
@@ -24,6 +25,7 @@ class BlogIndex extends React.Component {
           title={siteTitle}
         />
         <Bio />
+        <Card />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
