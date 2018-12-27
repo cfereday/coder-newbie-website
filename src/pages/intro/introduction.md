@@ -1,5 +1,6 @@
 ---
 title: Coder Newbie Introduction
+date: "2015-05-01T22:12:03.284Z"
 ---
 
 ## About
@@ -12,20 +13,20 @@ It's starting as a series of markdown files, but the plan is to turn it into a w
 ## Content
 
 ### Bootcamps
-* [Germany/Austria/Switzerland](../bootcamps/bootcamps-d-a-ch.md)
-* [Israel](../bootcamps/bootcamps-israel.md)
-* [United Kingdom](../bootcamps/bootcamps-uk.md)
+* Germany/Austria/Switzerland
+* Israel
+* United Kingdom
 
 ### Meetups
-* [Germany/Austria/Switzerland](../meetups/d-a-ch/meetups.md)
-* [United Kingdom](../meetups/uk/meetups.md)
+* Germany/Austria/Switzerland 
+* United Kingdom
 
 ### Online Resources
-* [Free E-Books](../online-resources/free-ebooks.md)
-* [Learn To Code Resources](../online-resources/learn-to-code-resources.md)
-* [Podcasts](../online-resources/podcasts.md)
-* [Tests/Interviews/CV](../online-resources/tech-tests-and-interviews.md)
-* [Getting started without installing](../no-install/try-before-you-buy.md)
+* Free E-Books 
+* Learn To Code Resources 
+* Podcasts
+* Tests/Interviews/CV
+* Getting started without installing
 
 ## Contribute
 
