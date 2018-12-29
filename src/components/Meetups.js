@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'gatsby'
 
-class Card extends Component {
+class Meetups extends Component {
   constructor() {
     super();
 
@@ -35,7 +36,7 @@ class Card extends Component {
     return (
       <div>
         <button onClick={this.showMenu}>
-          Meet in person to learn to code
+          Meetups to learn to code
         </button>
 
         {
@@ -47,9 +48,8 @@ class Card extends Component {
                   this.dropdownMenu = element;
                 }}
               >
-                <button> Germany/Austria/Switzerland </button>
-                <button> Israel </button>
-                <button> United Kingdom </button>
+                <Link to="/meetups/d-a-ch"> Germany/Austria/Switzerland </Link>
+                <Link to="/meetups/uk"> United Kingdom </Link>
               </div>
             )
             : (
@@ -61,4 +61,4 @@ class Card extends Component {
   }
 }
 
-export default Card
+export default Meetups
