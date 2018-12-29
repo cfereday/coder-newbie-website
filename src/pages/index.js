@@ -27,7 +27,11 @@ class Home extends React.Component {
         />
         <Bio />
         <Meetups />
+        <br/>
+        <br/>
         <Bootcamps />
+        <br/>
+        <br/>
         <OnlineResources />
       </Layout>
     )

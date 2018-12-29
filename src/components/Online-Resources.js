@@ -48,11 +48,11 @@ class OnlineResources extends Component {
                   this.dropdownMenu = element;
                 }}
               >
-                <Link to="/online-resources/free-ebooks"> Free ebooks </Link>
-                <Link to="/online-resources/learn-to-code-resources"> Learn to code resources </Link>
-                <Link to="/online-resources/podcasts"> Podcasts </Link>
-                <Link to="/online-resources/tech-tests-and-interviews"> Tech tests and interviews </Link>
-                <Link to="/online-resources/try-before-you-buy"> Try before you buy</Link>
+                <Link to="/online-resources/free-ebooks"> Free ebooks </Link> <br/>
+                <Link to="/online-resources/learn-to-code-resources"> Learn to code resources </Link><br/>
+                <Link to="/online-resources/podcasts"> Podcasts </Link><br/>
+                <Link to="/online-resources/tech-tests-and-interviews"> Tech tests and interviews </Link><br/>
+                <Link to="/online-resources/try-before-you-buy"> Try before you buy</Link><br/>
               </div>
             )
             : (

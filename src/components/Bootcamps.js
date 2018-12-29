@@ -48,8 +48,8 @@ class Bootcamps extends Component {
                   this.dropdownMenu = element;
                 }}
               >
-                <Link to="/bootcamps/d-a-ch"> Germany/Austria/Switzerland </Link>
-                <Link to="/bootcamps/israel"> Israel </Link>
+                <Link to="/bootcamps/d-a-ch"> Germany/Austria/Switzerland </Link> <br/>
+                <Link to="/bootcamps/israel"> Israel </Link> <br/>
                 <Link to="/bootcamps/uk"> United Kingdom </Link>
               </div>
             )

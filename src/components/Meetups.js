@@ -48,8 +48,8 @@ class Meetups extends Component {
                   this.dropdownMenu = element;
                 }}
               >
-                <Link to="/meetups/d-a-ch"> Germany/Austria/Switzerland </Link>
-                <Link to="/meetups/uk"> United Kingdom </Link>
+                <Link to="/meetups/d-a-ch"> Germany/Austria/Switzerland </Link><br/>
+                <Link to="/meetups/uk"> United Kingdom </Link><br/>
               </div>
             )
             : (
