@@ -6,6 +6,7 @@ import Helmet from 'react-helmet'
 import Bio from '../components/Bio'
 import Meetups from '../components/Meetups'
 import Bootcamps from '../components/Bootcamps'
+import OnlineResources from '../components/Online-Resources'
 import Layout from '../components/layout'
 import { rhythm } from '../utils/typography'
 
@@ -28,6 +29,7 @@ class BlogIndex extends React.Component {
         <Bio />
         <Meetups />
         <Bootcamps />
+        <OnlineResources />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
