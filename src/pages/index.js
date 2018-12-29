@@ -25,7 +25,11 @@ class Home extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
         />
-        <Bio />
+        <h1>This website has been created to be a useful source of information for people interested in learning to code for free.</h1>
+        <h3>You don't have to spend a lot of money to learn to code. There are many free resources and groups that can help you. Don't let money stop you. We need more diversity in tech and so often the blockers are lack of information and money, because we need greater diversity to create better software.</h3>
+        <h3>Click on the buttons to find start your coding journey today </h3>
+        <br/>
+        <br/>
         <Meetups />
         <br/>
         <br/>
@@ -33,6 +37,11 @@ class Home extends React.Component {
         <br/>
         <br/>
         <OnlineResources />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Bio />
       </Layout>
     )
   }
